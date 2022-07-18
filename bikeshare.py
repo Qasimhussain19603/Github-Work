@@ -32,12 +32,12 @@ def get_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
     month=''
     while month not in ['all', 'january', 'february','march', 'april', 'may' , 'june']:
-        month = input('Enter the Month Name from the First Six Months or Enter all: ').lower()
+        month = input(' plz Enter the Month Name from the First Six Months or Enter all: ').lower()
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day = ''
     while day not in ['all', 'monday', 'tuesday', 'wednesday', 'thursday','friday', 'saturday', 'sunday']:
-        day = input('Enter the Day of the Week or Enter all: ').lower()
+        day = input(' plz Enter the Day of the Week or Enter all: ').lower()
 
     print('-'*40)
     return city, month, day
